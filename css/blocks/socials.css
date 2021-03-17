@@ -1,0 +1,42 @@
+.footer-socials {
+  justify-self: end;
+  grid-column-gap: 20px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials-svg {
+  fill: #ffe13e;
+  transition-duration: 500ms;
+  transition-property: fill;
+}
+
+.socials-svg:hover {
+  fill: #fff;
+}
+
+.social-svg-twitter {
+  width: 17px;
+  height: 16px;
+}
+
+.social-svg-inst {
+  width: 18px;
+  height: 18px;
+}
+
+.social-svg-google {
+  width: 16px;
+  height: 18px;
+}
+
+@media (max-width: 600px) {
+  .footer-socials {
+    justify-self: center;
+  }
+}

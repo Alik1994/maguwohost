@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "rockwell";
+  src: url("../fonts/rockwell.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rockwell";
+  src: url("../fonts/rockwell-italic.woff");
+  font-weight: normal;
+  font-style: italic;
+}

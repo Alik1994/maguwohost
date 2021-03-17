@@ -1,0 +1,120 @@
+.info-check {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 575px;
+  padding: 20px;
+  background: #dcdddd;
+  margin: 0 auto;
+}
+
+input[type="search"] {
+  margin: 0;
+  width: 275px;
+  padding: 20px;
+  border: none;
+}
+
+input[type="search"]::placeholder {
+  font-size: 18px;
+  color: #2d2d2d;
+  line-height: 24px;
+}
+
+.select {
+  font-family: Raleway;
+  padding: 16px;
+  padding-right: 45px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #2d2d2d;
+  background: #ffe13e url("../../img/down-arrow.svg") no-repeat center right
+    15px;
+  background-size: 15%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-right: 2px solid #fff;
+}
+
+.search-btn {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 15px 20px 20px;
+  border: none;
+  background: #ffe13e;
+  color: #fff;
+}
+
+.outline:focus,
+.outline:active {
+  outline: none;
+}
+
+@media (max-width: 624px) {
+  .info-check {
+    background: none;
+  }
+
+  .select {
+    border: none;
+  }
+}
+
+@media (max-width: 622px) {
+  .info-check {
+    justify-content: center;
+  }
+
+  .search-btn {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  input[type="search"] {
+    width: 200px;
+    padding: 15px;
+  }
+
+  input[type="search"]::placeholder {
+    font-size: 14px;
+  }
+
+  .select {
+    padding-top: 11px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 392px) {
+  input[type="search"] {
+    width: 170px;
+    padding: 15px;
+  }
+
+  .select {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 340px) {
+  .info-check {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="search"] {
+    width: 200px;
+  }
+
+  .select {
+    margin-top: 10px;
+  }
+}

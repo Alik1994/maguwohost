@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /*определяет поведение прокрутки*/
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  min-width: 320px;
+}
+
+.wrap {
+  max-width: 1200px;
+  min-width: 290px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
